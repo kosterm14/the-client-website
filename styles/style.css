@@ -1,0 +1,138 @@
+nav {
+  padding-left: 4.375em;
+  padding-right: 0.625em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+img.header-logo {
+  display: inline-block;
+  width: 5em;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  flex-direction: row-reverse;
+  font-family: "Rigid Square";
+  font-weight: 700;
+}
+
+.nav-item a {
+  display: inline-block;
+  padding: 0.625em 0.9375em;
+  margin: 1.875em 1.875em;
+  text-decoration: none;
+  color: #090940;
+}
+
+.nav-item .account-icon {
+  display: inline-block;
+  padding: 0.625em 0.9375em;
+  margin: 1.25em 1.875em;
+  text-decoration: none;
+}
+
+p {
+  /* display: block; */
+  background-color: #31439c;
+  margin-block-start: 0em;
+  margin-block-end: 0em;
+  padding: 0.3em;
+  padding-left: 10em;
+  margin-left: -8px;
+  margin-right: -8px;
+  color: white;
+}
+
+h1 {
+  padding-left: 3em;
+  color: #090940;
+  font-weight: bold;
+  font-family: "Rigid Square";
+  font-size: 3em;
+  /* display: inline; */
+}
+
+img {
+  position: relative;
+}
+
+.links,
+.rechts {
+  position: absolute;
+  top: 670px;
+  color: white;
+  font-size: 1.4em;
+  width: 50px;
+  height: 50px;
+  background-color: #fe6f07;
+  border-style: none;
+  cursor: pointer;
+}
+
+.rechts {
+  left: 65em;
+  height: 60px;
+}
+
+.upload,
+.reageer {
+  background-color: #31439c;
+  color: white;
+  text-align: left;
+  border-style: none;
+  position: absolute;
+  top: 900px;
+  left: 1400px;
+  width: 100px;
+  padding: 10px;
+  /* display: flex; */
+}
+
+.arrow,
+.chatbox {
+  position: absolute;
+  bottom: 1px;
+  left: 65px;
+}
+
+.reageer {
+  top: 970px;
+}
+
+.background {
+  position: absolute;
+  left: 250px;
+  top: 320px;
+}
+
+.blurry-background {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  filter: blur(8px);
+}
+
+.second-navigation {
+  list-style: none;
+  display: flex;
+  flex-direction: row-reverse;
+  font-family: "Rigid Square";
+  font-weight: 700;
+}
+
+.other-page,
+.current-page {
+  /* display: inline-block; */
+  padding: 0.625em 0.9375em;
+  margin: -4.5em 1em;
+  text-decoration: none;
+  color: #31439c;
+}
+
+.current-page {
+  text-decoration: underline;
+}
